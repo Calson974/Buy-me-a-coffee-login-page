@@ -1,0 +1,123 @@
+:root {
+    --primary-color: #f8e00b;
+    --grey-color: #f1f1f1;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-bar img {
+    height: 40px;
+}
+
+.nav-a a {
+    color: #333;
+    font-weight: 500;
+}
+
+main {
+    max-width: 400px;
+    margin: 2rem auto;
+    text-align: center;
+    background: #fff;
+    padding: 02rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+form {
+    margin-bottom: 1.5rem;
+}
+
+.input-email {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 2rem;
+    border: 1px;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: var(--grey-color);
+}
+
+.button {
+    width: 100%;
+    padding: 0.8rem;
+    /*background-color: #007bff;*/
+    background-color: var(--primary-color);
+    color: inherit;
+    font-weight: 600;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #fcf81d;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+
+.or .line {
+    flex: 1;
+    height: 1px;
+    background-color: #ddd;
+}
+
+.or p {
+    margin: 0 1rem;
+    color: #666;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.social-li-img a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.social-li-img a img {
+    height: 20px;
+    margin-right: 0.5rem;
+}
+
+.social-li-img a:hover {
+    background-color: #f0f0f0;
+}
